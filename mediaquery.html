@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container{
+            display: grid;
+            background-color: red;
+            color: yellow;
+            border: 2px solid green ;
+        }
+        .items {
+            border: 2px solid red;
+            text-align: center;
+            background-color: yellow;
+            margin: 5px;
+            padding: 40px;
+             color: black;           
+
+
+        }
+        @media screen and (min-width:768px)
+        {
+            .grid-container{
+                display: flex;
+                background-color: aqua;
+                color: brown;
+                border: 3px;
+                
+            }
+            .items{
+                border: 30px;
+                text-align: center;
+                background-color: red;
+                margin: 4px;
+                padding: 30px;
+                justify-content: end;
+            }
+        }
+            
+        
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="items">pathi</div>
+        <div class="items">pandi</div>
+        <div class="items">siva</div>
+        <div class="items">vasan</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+/*.grid-container 
+{
+    grid-template-columns:  repeat(6 , 1fr) ;
+    grid-template-rows: 200px 150px 100px 50px; 
+ grid-template-rows: repeat(3 200px);
+ #a{
+    grid-area: 1;
+ }
+ 
+} */
+ .grid-container {
+   grid-template-columns: 100px 100px 100px 100px;
+   grid-template-rows: repeat(2, 100px);
+   justify-content: space-evenly;
+   border-radius: 20px;
+   height: 600px; 
+   align-content: space-evenly;
+ }
