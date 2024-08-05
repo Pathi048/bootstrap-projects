@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="name">Name: </label>
+    <input type="text" type="name"><br><br>
+    <label for="age">Age: </label>
+    <input type="number" name="age" id="age"><br><br>
+    <label for="mark">Mark: </label>
+    <input type="number" name="mark" id="mark">
+    <input type="button" value="submit" onclick="findvalue()">
+
+</body>
+<script>
+    function  findvalue(){
+        const age = document.getElementById("age").value
+        const mark = document.getElementById("mark").value
+        if(age>=18 && mark>80){
+            alert("eligible")
+        }else{
+            alert("not eligible")
+        }
+    }
+</script>
+</html>
